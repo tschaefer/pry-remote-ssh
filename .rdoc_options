@@ -1,0 +1,32 @@
+---
+encoding: UTF-8
+static_path: []
+rdoc_include: []
+page_dir:
+charset: UTF-8
+exclude:
+  - "~\\z"
+  - "\\.orig\\z"
+  - "\\.rej\\z"
+  - "\\.bak\\z"
+  - "\\.gemspec\\z"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "Rakefile"
+hyperlink_all: false
+line_numbers: false
+locale:
+locale_dir: locale
+locale_name:
+main_page: "README.md"
+markup: rdoc
+output_decoration: true
+show_hash: false
+skip_tests: true
+tab_width: 2
+template_stylesheets: []
+title: Connect to Pry remotely via SSH
+visibility: :protected
+webcvs:
+
+# vim: ft=yaml
