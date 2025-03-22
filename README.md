@@ -50,17 +50,15 @@ pry-remote
 ```
 
 ```ruby
-Frame number: 0/2
-
-From: /run/user/1000/tmp/foo/bar.rb:5 Foo#initialize:
+From: example.rb:5 Foo#initialize:
 
     4: def initialize(x, y)
- => 5:   binding.remote_pry_ssh 'localhost', remote_port: 9877
+ => 5:   binding.remote_pry_ssh 'remote-host'
     6: end
 
-[bullseye:pry] [/#<Foo:0x00007f339ed02590>] >> self
+[1] [/#<Foo:0x00007f339ed02590>] >> self
 => #<Foo:0x00007f339ed02590>
-[bullseye:pry] [/#<Foo:0x00007f339ed02590>] >> ls -l
+[2] [/#<Foo:0x00007f339ed02590>] >> ls -l
 y = 20
 x = 10
 ```
